@@ -1,0 +1,33 @@
+- src
+  |- main
+     |- java
+        |- com.example
+           |- controller
+           |  |- HomeController.java
+           |  |- LoginController.java
+           |  |- LogoutController.java
+           |  |- UserController.java
+           |
+           |- model
+           |  |- User.java
+           |  |- Log.java
+           |
+           |- repository
+           |  |- UserRepository.java
+           |  |- LogRepository.java
+           |
+           |- service
+              |- UserService.java
+              |- LogService.java
+              |- UserServiceImpl.java
+              |- LogServiceImpl.java
+     |- resources
+        |- static
+           |- css
+           |  |- style.css
+           |
+           |- templates
+              |- home.html
+              |- login.html
+              |- registration.html
+        |- application.properties
